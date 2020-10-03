@@ -3,4 +3,5 @@
     <string name="boop">boop</string>
     <string name="textview1">Beep</string>
     <string name="hello_worlds">Hello Worlds!</string>
+    <string name="change_color">Change color</string>
 </resources>

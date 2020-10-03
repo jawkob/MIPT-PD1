@@ -2,6 +2,7 @@ package com.example.hlwrld22;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnChangeTextPress(View view) {
         this.simple_txt.setText("beep beep boop boop");
+    }
+
+    public void onBtnChangeTextColorPress(View view) {
+        this.simple_txt.setTextColor(Color.RED);
     }
 }
